@@ -1,0 +1,70 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rContainer {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.rContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.rButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.rButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.rButton:hover {
+  background-color: #0056b3;
+}
+
+.register p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register a {
+  color: #007bff;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+.register span {
+  display: block;
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
